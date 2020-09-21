@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Counter file should test snapshot of Counter component 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-1"
+    >
+      <span
+        className="badge m-2 badge-primary"
+        style={
+          Object {
+            "fontSize": 24,
+          }
+        }
+      >
+        2
+      </span>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <button
+        className="btn btn-secondary"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-plus-circle"
+        />
+      </button>
+      <button
+        className="btn btn-info m-2"
+        disabled=""
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-minus-circle"
+        />
+      </button>
+      <button
+        className="btn btn-danger"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-trash-o"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Counters file should test Counters component snapshot 1`] = `
+<div>
+  <button
+    className="btn btn-success m-2"
+    disabled=""
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-refresh"
+    />
+  </button>
+  <button
+    className="btn btn-primary m-2"
+    disabled="disabled"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-recycle"
+    />
+  </button>
+  <Counter
+    counter={
+      Object {
+        "id": 1,
+        "value": 2,
+      }
+    }
+    key="1"
+  />
+  <Counter
+    counter={
+      Object {
+        "id": 2,
+        "value": 3,
+      }
+    }
+    key="2"
+  />
+  <Counter
+    counter={
+      Object {
+        "id": 3,
+        "value": 1,
+      }
+    }
+    key="3"
+  />
+  <Counter
+    counter={
+      Object {
+        "id": 4,
+        "value": 4,
+      }
+    }
+    key="4"
+  />
+</div>
+`;

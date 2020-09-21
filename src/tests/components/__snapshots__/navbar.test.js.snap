@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the navbar file should test NavBar component 1`] = `
+<nav
+  className="navbar navbar-light bg-light"
+>
+  <div
+    className="navbar-brand"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-shopping-cart fa-lg m-2"
+    />
+    <span
+      className="badge badge-pill badge-info m-2"
+      style={
+        Object {
+          "width": 50,
+        }
+      }
+    />
+    Items
+  </div>
+</nav>
+`;

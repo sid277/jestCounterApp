@@ -1,0 +1,697 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the App file Snapshot of App component 1`] = `
+<App>
+  <div>
+    <NavBar
+      totalCounters={0}
+    >
+      <nav
+        className="navbar navbar-light bg-light"
+      >
+        <div
+          className="navbar-brand"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-shopping-cart fa-lg m-2"
+          />
+          <span
+            className="badge badge-pill badge-info m-2"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
+          >
+            0
+          </span>
+          Items
+        </div>
+      </nav>
+    </NavBar>
+    <main
+      className="container"
+    >
+      <Counters
+        counters={
+          Array [
+            Object {
+              "id": 1,
+              "value": 0,
+            },
+            Object {
+              "id": 2,
+              "value": 0,
+            },
+            Object {
+              "id": 3,
+              "value": 0,
+            },
+            Object {
+              "id": 4,
+              "value": 0,
+            },
+          ]
+        }
+        onDecrement={[Function]}
+        onDelete={[Function]}
+        onIncrement={[Function]}
+        onReset={[Function]}
+        onRestart={[Function]}
+      >
+        <div>
+          <button
+            className="btn btn-success m-2"
+            disabled=""
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-refresh"
+            />
+          </button>
+          <button
+            className="btn btn-primary m-2"
+            disabled="disabled"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-recycle"
+            />
+          </button>
+          <Counter
+            counter={
+              Object {
+                "id": 1,
+                "value": 0,
+              }
+            }
+            key="1"
+            onDecrement={[Function]}
+            onDelete={[Function]}
+            onIncrement={[Function]}
+          >
+            <div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-1"
+                >
+                  <span
+                    className="badge m-2 badge-warning"
+                    style={
+                      Object {
+                        "fontSize": 24,
+                      }
+                    }
+                  >
+                    Zero
+                  </span>
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-plus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-info m-2"
+                    disabled="disabled"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-minus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-trash-o"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </Counter>
+          <Counter
+            counter={
+              Object {
+                "id": 2,
+                "value": 0,
+              }
+            }
+            key="2"
+            onDecrement={[Function]}
+            onDelete={[Function]}
+            onIncrement={[Function]}
+          >
+            <div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-1"
+                >
+                  <span
+                    className="badge m-2 badge-warning"
+                    style={
+                      Object {
+                        "fontSize": 24,
+                      }
+                    }
+                  >
+                    Zero
+                  </span>
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-plus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-info m-2"
+                    disabled="disabled"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-minus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-trash-o"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </Counter>
+          <Counter
+            counter={
+              Object {
+                "id": 3,
+                "value": 0,
+              }
+            }
+            key="3"
+            onDecrement={[Function]}
+            onDelete={[Function]}
+            onIncrement={[Function]}
+          >
+            <div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-1"
+                >
+                  <span
+                    className="badge m-2 badge-warning"
+                    style={
+                      Object {
+                        "fontSize": 24,
+                      }
+                    }
+                  >
+                    Zero
+                  </span>
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-plus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-info m-2"
+                    disabled="disabled"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-minus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-trash-o"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </Counter>
+          <Counter
+            counter={
+              Object {
+                "id": 4,
+                "value": 0,
+              }
+            }
+            key="4"
+            onDecrement={[Function]}
+            onDelete={[Function]}
+            onIncrement={[Function]}
+          >
+            <div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-1"
+                >
+                  <span
+                    className="badge m-2 badge-warning"
+                    style={
+                      Object {
+                        "fontSize": 24,
+                      }
+                    }
+                  >
+                    Zero
+                  </span>
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-plus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-info m-2"
+                    disabled="disabled"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-minus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-trash-o"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </Counter>
+        </div>
+      </Counters>
+    </main>
+  </div>
+</App>
+`;
+
+exports[`Test the App file should test App component 1`] = `
+<App>
+  <div>
+    <NavBar
+      totalCounters={0}
+    >
+      <nav
+        className="navbar navbar-light bg-light"
+      >
+        <div
+          className="navbar-brand"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-shopping-cart fa-lg m-2"
+          />
+          <span
+            className="badge badge-pill badge-info m-2"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
+          >
+            0
+          </span>
+          Items
+        </div>
+      </nav>
+    </NavBar>
+    <main
+      className="container"
+    >
+      <Counters
+        counters={
+          Array [
+            Object {
+              "id": 1,
+              "value": 0,
+            },
+            Object {
+              "id": 2,
+              "value": 0,
+            },
+            Object {
+              "id": 3,
+              "value": 0,
+            },
+            Object {
+              "id": 4,
+              "value": 0,
+            },
+          ]
+        }
+        onDecrement={[Function]}
+        onDelete={[Function]}
+        onIncrement={[Function]}
+        onReset={[Function]}
+        onRestart={[Function]}
+      >
+        <div>
+          <button
+            className="btn btn-success m-2"
+            disabled=""
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-refresh"
+            />
+          </button>
+          <button
+            className="btn btn-primary m-2"
+            disabled="disabled"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-recycle"
+            />
+          </button>
+          <Counter
+            counter={
+              Object {
+                "id": 1,
+                "value": 0,
+              }
+            }
+            key="1"
+            onDecrement={[Function]}
+            onDelete={[Function]}
+            onIncrement={[Function]}
+          >
+            <div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-1"
+                >
+                  <span
+                    className="badge m-2 badge-warning"
+                    style={
+                      Object {
+                        "fontSize": 24,
+                      }
+                    }
+                  >
+                    Zero
+                  </span>
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-plus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-info m-2"
+                    disabled="disabled"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-minus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-trash-o"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </Counter>
+          <Counter
+            counter={
+              Object {
+                "id": 2,
+                "value": 0,
+              }
+            }
+            key="2"
+            onDecrement={[Function]}
+            onDelete={[Function]}
+            onIncrement={[Function]}
+          >
+            <div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-1"
+                >
+                  <span
+                    className="badge m-2 badge-warning"
+                    style={
+                      Object {
+                        "fontSize": 24,
+                      }
+                    }
+                  >
+                    Zero
+                  </span>
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-plus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-info m-2"
+                    disabled="disabled"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-minus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-trash-o"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </Counter>
+          <Counter
+            counter={
+              Object {
+                "id": 3,
+                "value": 0,
+              }
+            }
+            key="3"
+            onDecrement={[Function]}
+            onDelete={[Function]}
+            onIncrement={[Function]}
+          >
+            <div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-1"
+                >
+                  <span
+                    className="badge m-2 badge-warning"
+                    style={
+                      Object {
+                        "fontSize": 24,
+                      }
+                    }
+                  >
+                    Zero
+                  </span>
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-plus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-info m-2"
+                    disabled="disabled"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-minus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-trash-o"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </Counter>
+          <Counter
+            counter={
+              Object {
+                "id": 4,
+                "value": 0,
+              }
+            }
+            key="4"
+            onDecrement={[Function]}
+            onDelete={[Function]}
+            onIncrement={[Function]}
+          >
+            <div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-1"
+                >
+                  <span
+                    className="badge m-2 badge-warning"
+                    style={
+                      Object {
+                        "fontSize": 24,
+                      }
+                    }
+                  >
+                    Zero
+                  </span>
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-plus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-info m-2"
+                    disabled="disabled"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-minus-circle"
+                    />
+                  </button>
+                  <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-trash-o"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </Counter>
+        </div>
+      </Counters>
+    </main>
+  </div>
+</App>
+`;
