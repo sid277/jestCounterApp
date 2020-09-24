@@ -4,6 +4,7 @@
     "collectCoverage": true,
     "coverageReporters": ["lcov"],
     "coverageDirectory": "test-coverage",
+    "reporters":["node_modules/jest-html-reporter"],
     "coverageThreshold": {
     "global": {
     "branches": 0,
